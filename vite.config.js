@@ -5,7 +5,6 @@ import SortCss from 'postcss-sort-media-queries';
 
 export default defineConfig({
   root: 'src', // <- обов’язково, бо index.html у src
-  base: '/kyrcova3.github.io/',
   build: {
     outDir: '../dist', // збірка в корінь проєкту
     emptyOutDir: true,
